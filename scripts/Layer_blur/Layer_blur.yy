@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Layer_blur",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Layer_blur",
+  "parent":{
+    "name":"Appendage",
+    "path":"Appendage.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

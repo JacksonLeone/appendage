@@ -1,22 +1,9 @@
-varying vec2 v_vTexcoord;
-varying vec4 v_vColour;
-uniform vec3 size;//width,height,radius
+attribute vec2 in_Position;
+attribute vec2 in_TextureCoord;
 
-const int Quality = 6;
-const int Directions = 12;
-const float Pi = 6.28318530718;//pi * 2
+varying vec2 v_texcoord;
 
-void main()
-{
-    vec2 radius = size.z/size.xy;
-    vec4 Color = texture2D( gm_BaseTexture, v_vTexcoord);
-    for( float d=0.0;d<Pi;d+=Pi/float(Directions) )
-    {
-        for( float i=1.0/float(Quality);i<=1.0;i+=1.0/float(Quality) )
-        {
-                Color += texture2D( gm_BaseTexture, v_vTexcoord+vec2(cos(d),sin(d))*radius*i);
-        }
-    }
-    Color /= float(Quality)*float(Directions)+1.0;
-    gl_FragColor =  Color *  v_vColour;
+void main() {
+    gl_Position = vec4(in_Position.x, in_Position.y, 0.0, 1.0);
+    v_texcoord = in_TextureCoord;
 }
