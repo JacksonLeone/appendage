@@ -13,32 +13,38 @@ if (current_limb != "leg"){
 		{xsp = 0}
 	}
 	if keyboard_check_pressed(vk_left)
-		{xsp =- 2.5}
+		{xsp =- 2.5;
+			image_xscale = -1}
 
 	if keyboard_check_pressed(vk_right)
-	{xsp =+ 2.5}
+	{xsp =+ 2.5;
+		image_xscale = 1}
 }
 
 //leg logic
 if (current_limb == "leg"){
 	ysp += 0.1 //small gravity
     if (keyboard_check(vk_left)) {
-        xsp = -1.5;
+        xsp = -2.5;
+		image_xscale = -1
     }
     if (keyboard_check(vk_right)) {
-        xsp = 1.5;
+        xsp = 2.5;
+		image_xscale = 1
     }
-if keyboard_check_pressed(vk_left)
-	{
-	xsp =- 2.5
-	image_xscale = -1
-	}
-
-if keyboard_check_pressed(vk_right)
-{
-	xsp =+ 2.5
-	image_xscale = 1
 }
+//if keyboard_check_pressed(vk_left)
+//	{
+//	xsp =- 2.5
+//	image_xscale = -1
+//	}
+
+//if keyboard_check_pressed(vk_right)
+//{
+//	xsp =+ 2.5
+//	image_xscale = 1
+//}
+
 
 if place_meeting(x, y+1, oSolid)
 {
