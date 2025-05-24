@@ -6,6 +6,7 @@
   "ResourceOrderSettings":[
     {"name":"oSolid","order":1,"path":"objects/oSolid/oSolid.yy",},
     {"name":"oSpike","order":2,"path":"objects/oSpike/oSpike.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"sSolid","order":1,"path":"sprites/sSolid/sSolid.yy",},
     {"name":"sSpike","order":2,"path":"sprites/sSpike/sSpike.yy",},
   ],

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"lil_guy",
-    "path":"sprites/lil_guy/lil_guy.yy",
+    "name":"sGuy",
+    "path":"sprites/sGuy/sGuy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
