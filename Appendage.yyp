@@ -28,7 +28,6 @@
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},},
     {"id":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},},
     {"id":{"name":"oStartScreen","path":"objects/oStartScreen/oStartScreen.yy",},},
-    {"id":{"name":"Shader_object","path":"objects/Shader_object/Shader_object.yy",},},
     {"id":{"name":"JaredTest","path":"rooms/JaredTest/JaredTest.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
