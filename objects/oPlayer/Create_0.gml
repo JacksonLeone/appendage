@@ -3,9 +3,6 @@ window_set_size(1280, 720)
 xsp = 0
 ysp = 0
 
-//visibility (for eye logic)
-screen_alpha = 1;
-
 //"eye", "leg"
 current_limb = "eye";
 
