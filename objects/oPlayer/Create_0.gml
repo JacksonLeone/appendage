@@ -13,3 +13,12 @@ current_limb = "eye";
 switch_cooldown = 0;
 switch_delay = 2; //frames
 
+player_gravity = 0.6 //big gravity
+
+hop_speed = 0.25
+leg_speed = 0.15
+
+player_speed = leg_speed
+collision_speed = leg_speed + 2
+
+
