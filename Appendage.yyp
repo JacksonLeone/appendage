@@ -25,10 +25,11 @@
   "resources":[
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},},
+    {"id":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"lil_guy","path":"sprites/lil_guy/lil_guy.yy",},},
-    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
-    {"id":{"name":"Tile","path":"sprites/Tile/Tile.yy",},},
+    {"id":{"name":"sSolid","path":"sprites/sSolid/sSolid.yy",},},
+    {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

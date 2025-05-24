@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oSolid",
+  "%Name":"oSpike",
   "eventList":[],
   "managed":true,
-  "name":"oSolid",
+  "name":"oSpike",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSolid",
-    "path":"sprites/sSolid/sSolid.yy",
+    "name":"sSpike",
+    "path":"sprites/sSpike/sSpike.yy",
   },
   "spriteMaskId":null,
   "visible":true,

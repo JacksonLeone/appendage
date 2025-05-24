@@ -1,13 +1,12 @@
 {
   "FolderOrderSettings":[
-    {"name":"Objects","order":9,"path":"folders/Objects.yy",},
-    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
-    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"Objects","order":1,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"oSolid","order":1,"path":"objects/oSolid/oSolid.yy",},
-    {"name":"lil_guy","order":11,"path":"sprites/lil_guy/lil_guy.yy",},
-    {"name":"Sprite3","order":13,"path":"sprites/Sprite3/Sprite3.yy",},
-    {"name":"Tile","order":12,"path":"sprites/Tile/Tile.yy",},
+    {"name":"oSpike","order":2,"path":"objects/oSpike/oSpike.yy",},
+    {"name":"sSolid","order":1,"path":"sprites/sSolid/sSolid.yy",},
+    {"name":"sSpike","order":2,"path":"sprites/sSpike/sSpike.yy",},
   ],
 }
