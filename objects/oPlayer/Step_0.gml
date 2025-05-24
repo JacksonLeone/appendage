@@ -24,5 +24,3 @@ if place_meeting(x, y+1, oSolid)
 
 
 move_and_collide(xsp, ysp, oSolid)
-
-if place_meeting(x, y, )
