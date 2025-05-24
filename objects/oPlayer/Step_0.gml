@@ -28,6 +28,16 @@ if (current_limb == "leg"){
     if (keyboard_check(vk_right)) {
         xsp = 1.5;
     }
+if keyboard_check_pressed(vk_left)
+	{
+	xsp =- 2.5
+	image_xscale = -1
+	}
+
+if keyboard_check_pressed(vk_right)
+{
+	xsp =+ 2.5
+	image_xscale = 1
 }
 
 if place_meeting(x, y+1, oSolid)
