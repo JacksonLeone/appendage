@@ -13,7 +13,6 @@
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"tutorial","order":3,"path":"rooms/tutorial/tutorial.yy",},
     {"name":"Layer_blur","order":4,"path":"scripts/Layer_blur/Layer_blur.yy",},
-    {"name":"BlurShader","order":3,"path":"shaders/BlurShader/BlurShader.yy",},
     {"name":"eyes_anim","order":5,"path":"sprites/eyes_anim/eyes_anim.yy",},
     {"name":"sBackground","order":3,"path":"sprites/sBackground/sBackground.yy",},
     {"name":"sBlur","order":3,"path":"sprites/sBlur/sBlur.yy",},
