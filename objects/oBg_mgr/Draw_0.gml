@@ -1,4 +1,4 @@
-if ( oPlayer.image_xscale < 0 )
+if ( oPlayer.current_limb != "eye" )
 {
 layer_enable_fx("blur_effect",true)
 //layer_enable_fx("Instances",true)

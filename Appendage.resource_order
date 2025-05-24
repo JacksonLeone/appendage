@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"anims","order":3,"path":"folders/anims.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
   ],
@@ -11,11 +12,17 @@
     {"name":"JaredTest","order":3,"path":"rooms/JaredTest/JaredTest.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"tutorial","order":3,"path":"rooms/tutorial/tutorial.yy",},
-    {"name":"eyes_anim","order":5,"path":"sprites/eyes_anim/eyes_anim.yy",},
+    {"name":"eyes_anim","order":4,"path":"sprites/eyes_anim/eyes_anim.yy",},
+    {"name":"eyes_idle","order":5,"path":"sprites/eyes_idle/eyes_idle.yy",},
+    {"name":"idle_anim","order":1,"path":"sprites/idle_anim/idle_anim.yy",},
+    {"name":"leg_idle","order":6,"path":"sprites/leg_idle/leg_idle.yy",},
+    {"name":"leg_sprout","order":2,"path":"sprites/leg_sprout/leg_sprout.yy",},
     {"name":"sBackground","order":3,"path":"sprites/sBackground/sBackground.yy",},
     {"name":"sBlur","order":3,"path":"sprites/sBlur/sBlur.yy",},
+    {"name":"scoot_palindrone_anim","order":7,"path":"sprites/scoot_palindrone_anim/scoot_palindrone_anim.yy",},
     {"name":"slimey","order":4,"path":"sprites/slimey/slimey.yy",},
     {"name":"sSolid","order":1,"path":"sprites/sSolid/sSolid.yy",},
     {"name":"sSpike","order":2,"path":"sprites/sSpike/sSpike.yy",},
+    {"name":"walk_anim","order":3,"path":"sprites/walk_anim/walk_anim.yy",},
   ],
 }
