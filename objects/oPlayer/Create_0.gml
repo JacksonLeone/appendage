@@ -9,4 +9,3 @@ current_limb = "eye";
 // Switch cooldown (optional)
 switch_cooldown = 0;
 switch_delay = 2; //frames
-
