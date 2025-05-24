@@ -1,0 +1,13 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Objects","order":9,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oSolid","order":1,"path":"objects/oSolid/oSolid.yy",},
+    {"name":"lil_guy","order":11,"path":"sprites/lil_guy/lil_guy.yy",},
+    {"name":"Sprite3","order":13,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Tile","order":12,"path":"sprites/Tile/Tile.yy",},
+  ],
+}
