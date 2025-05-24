@@ -1,4 +1,5 @@
-if (current_limb != "leg"){
+if (current_limb != "leg")
+{
 		ysp += 0.6 //big gravity
 	if xsp > 0 and ysp >= 0
 	{
@@ -32,6 +33,19 @@ if (current_limb == "leg"){
         xsp = 2.5;
 		image_xscale = 1
     }
+
+}	
+	
+if keyboard_check_pressed(vk_left)
+{
+	xsp =- 2.5
+	image_xscale = -1
+}
+
+if keyboard_check_pressed(vk_right)
+{
+	xsp =+ 2.5
+	image_xscale = 1
 }
 
 
@@ -39,11 +53,16 @@ if place_meeting(x, y+1, oSolid)
 {
 	ysp = 0
 	if keyboard_check_pressed(vk_up)
-	{ysp =-4}
+	{
+		ysp =-4
+	}
 }
 
 // Cooldown logic
-if (switch_cooldown > 0) {switch_cooldown -= 1;}
+if (switch_cooldown > 0) 
+{
+	switch_cooldown -= 1
+}
 // Toggle limbs
 if (keyboard_check_pressed(ord("1")) && switch_cooldown <= 0) {
     current_limb = "eye";
@@ -54,8 +73,10 @@ if (keyboard_check_pressed(ord("2")) && switch_cooldown <= 0) {
 	sprite_index = slimey_scoot;
     switch_cooldown = switch_delay;}
 	
-if (place_meeting(x, y, oSpike))
-{room_restart();}
+if place_meeting(x, y, oSpike)
+{
+	room_restart();
+}
 
 //eye logic
 //if (current_limb == "eye") {
@@ -63,7 +84,6 @@ if (place_meeting(x, y, oSpike))
 //} else {
 //    screen_alpha = 0.3;
 //}
-
 
 move_and_collide(xsp, ysp, oSolid)
 
