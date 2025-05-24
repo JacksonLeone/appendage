@@ -21,12 +21,14 @@ else if xsp < 0 and ysp >= 0
 
 if keyboard_check_pressed(vk_left)
 	{
-	xsp =- 2.5	
+	xsp =- 2.5
+	image_xscale = -1
 	}
 
 if keyboard_check_pressed(vk_right)
 {
 	xsp =+ 2.5
+	image_xscale = 1
 }
 
 if place_meeting(x, y+1, oSolid)

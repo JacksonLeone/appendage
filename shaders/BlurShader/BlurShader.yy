@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"BlurShader",
+  "name":"BlurShader",
+  "parent":{
+    "name":"Appendage",
+    "path":"Appendage.yyp",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
