@@ -9,6 +9,7 @@
     {"name":"oStartScreen","order":3,"path":"objects/oStartScreen/oStartScreen.yy",},
     {"name":"Room3","order":2,"path":"rooms/Room3/Room3.yy",},
     {"name":"tutorial","order":3,"path":"rooms/tutorial/tutorial.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"sSolid","order":1,"path":"sprites/sSolid/sSolid.yy",},
     {"name":"sSpike","order":2,"path":"sprites/sSpike/sSpike.yy",},
   ],
