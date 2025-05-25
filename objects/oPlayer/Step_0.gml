@@ -24,10 +24,9 @@ if (keyboard_check_pressed(ord("4")) && switch_cooldown <= 0) {
 ysp += 0.6 
 
 // if you were moving, stop (friction bby)
-			if xsp > 0 and ysp >= 0
-	{
-		xsp -= 0.25
-		if xsp < 0 {
+if xsp > 0 and ysp >= 0{
+	xsp -= 0.25
+	if xsp < 0 {
 		xsp = 0}
 	} 
 	else if xsp < 0 and ysp >= 0
@@ -37,8 +36,7 @@ ysp += 0.6
 		{xsp = 0}
 	}
 
-	// enter eye state, no movement]
-
+// enter eye state, no movement]
 if (current_limb == "eye"){
 	legs_sprouted = false
 	if !eyes_sprouted{
@@ -96,12 +94,13 @@ if (current_limb == "leg"){
 		image_speed = 1
 		sprite_index = walk_anim
     }
-	if xsp == 0 and ! leg_sprout{
+	if xsp == 0 and sprite_index != leg_sprout{
 		sprite_index = leg_idle
 	}
 }
 
 if (current_limb == "mouth") {
+	eyes_sprouted = false
     var scale = 2;
     
     // Adjust position to keep bottom fixed; otherwise you get stuck to the ground
@@ -110,26 +109,28 @@ if (current_limb == "mouth") {
 
     image_xscale = scale;
     image_yscale = scale;
-}
-else {
+	if (keyboard_check(vk_left)) {
+        xsp = -1.5;
+		image_xscale = -scale
+		image_speed = 1
+		sprite_index = walk_anim
+    }
+    if (keyboard_check(vk_right)) {
+        xsp = 1.5;
+		image_xscale = scale
+		image_speed = 1
+		sprite_index = walk_anim
+    }
+	if xsp == 0 and sprite_index != leg_sprout{
+		sprite_index = leg_idle
+	}
+}else {
     image_xscale = 1;
     image_yscale = 1;
 }
-	
-if keyboard_check_pressed(vk_left)
-{
-	xsp =- 2.5
-	image_xscale = -1
-}
-
-if keyboard_check_pressed(vk_right)
-{
-	xsp =+ 2.5
-	image_xscale = 1
-}
 
 // if you're on the ground, be able to jump
-if place_meeting(x, y+1, oSolid)
+if place_meeting(x, y+1, oSolid) && current_limb != "eye"
 {
 	ysp = 0
 	if keyboard_check_pressed(vk_up)

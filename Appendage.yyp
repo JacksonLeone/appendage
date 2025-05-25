@@ -1,5 +1,5 @@
 {
-"$GMProject":"v1",
+  "$GMProject":"v1",
   "%Name":"Appendage",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -8,19 +8,19 @@
     "children":[],
     "name":"Default",
   },
-    "defaultScriptType":1,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"anims","folderPath":"folders/anims.yy","name":"anims","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences": [],
-  "IncludedFiles": [],
-  "isEcma": false,
-  "LibraryEmitters": [],
-  "MetaData": {
-    "IDEVersion": "2024.13.1.193"
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"Appendage",
   "resources":[
@@ -45,14 +45,14 @@
     {"id":{"name":"leg_sprout","path":"sprites/leg_sprout/leg_sprout.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sBlur","path":"sprites/sBlur/sBlur.yy",},},
-    {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
-    {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},},
     {"id":{"name":"scoot_anim","path":"sprites/scoot_anim/scoot_anim.yy",},},
     {"id":{"name":"scoot_palindrone_anim","path":"sprites/scoot_palindrone_anim/scoot_palindrone_anim.yy",},},
+    {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
+    {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},},
     {"id":{"name":"slimey","path":"sprites/slimey/slimey.yy",},},
     {"id":{"name":"sSolid","path":"sprites/sSolid/sSolid.yy",},},
     {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},},
-    {"id":{"name":"walk_anim","path":"sprites/walk_anim/walk_anim.yy",},},  
+    {"id":{"name":"walk_anim","path":"sprites/walk_anim/walk_anim.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
