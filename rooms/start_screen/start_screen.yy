@@ -6,6 +6,7 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_3A228E4B","path":"rooms/start_screen/start_screen.yy",},
   ],
   "isDnd":false,
   "layers":[

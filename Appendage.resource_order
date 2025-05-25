@@ -38,7 +38,6 @@
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"trust_fall","order":4,"path":"rooms/trust_fall/trust_fall.yy",},
     {"name":"tutorial","order":3,"path":"rooms/tutorial/tutorial.yy",},
-    {"name":"RoomUI","order":7,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"create_button","order":3,"path":"scripts/create_button/create_button.yy",},
     {"name":"create_list","order":1,"path":"scripts/create_list/create_list.yy",},
     {"name":"create_roomSelector","order":6,"path":"scripts/create_roomSelector/create_roomSelector.yy",},

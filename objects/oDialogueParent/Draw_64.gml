@@ -8,6 +8,8 @@ if (showing_dialog) {
 	
 	display_set_gui_size(view_wport[0], view_hport[0]);
 	
+	draw_set_font(fDialogue)
+	
 	draw_set_alpha(alpha);
 	
 	draw_set_color(c_black);
