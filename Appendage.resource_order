@@ -24,5 +24,10 @@
     {"name":"sSolid","order":1,"path":"sprites/sSolid/sSolid.yy",},
     {"name":"sSpike","order":2,"path":"sprites/sSpike/sSpike.yy",},
     {"name":"walk_anim","order":3,"path":"sprites/walk_anim/walk_anim.yy",},
+    {"name":"oEnemy","order":6,"path":"objects/oEnemy/oEnemy.yy",},
+    {"name":"sFlag","order":6,"path":"sprites/sFlag/sFlag.yy",},
+    {"name":"trust_fall","order":4,"path":"rooms/trust_fall/trust_fall.yy",},
+    {"name":"nomnom","order":5,"path":"rooms/nomnom/nomnom.yy",},
+    {"name":"oFlag","order":5,"path":"objects/oFlag/oFlag.yy",},
   ],
 }

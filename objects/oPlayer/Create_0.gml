@@ -6,7 +6,7 @@ ysp = 0
 //visibility (for eye logic)
 screen_alpha = 1;
 
-//"eye", "leg"
+//"eye", "leg", "mouth"
 current_limb = "eye";
 
 // Switch cooldown (optional)

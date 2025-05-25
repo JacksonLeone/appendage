@@ -14,25 +14,30 @@ if (keyboard_check_pressed(ord("3")) && switch_cooldown <= 0)
     current_limb = "leg"
     switch_cooldown = switch_delay;
 }
+if (keyboard_check_pressed(ord("4")) && switch_cooldown <= 0) {
+    current_limb = "mouth"
+	//gravity_multiplier += 0.1;
+	 switch_cooldown = switch_delay;
+}
 
 //big gravity
 ysp += 0.6 
 
 // if you were moving, stop (friction bby)
-if xsp > 0 and ysp >= 0
-{
-	xsp -= 0.25
-	if xsp < 0 {
+			if xsp > 0 and ysp >= 0
+	{
+		xsp -= 0.25
+		if xsp < 0 {
 		xsp = 0}
-} 
-else if xsp < 0 and ysp >= 0
-{
-	xsp += 0.25
-	if xsp > 0
-	{xsp = 0}
-}
+	} 
+	else if xsp < 0 and ysp >= 0
+	{
+		xsp += 0.25
+		if xsp > 0
+		{xsp = 0}
+	}
 
-// enter eye state, no movement]
+	// enter eye state, no movement]
 
 if (current_limb == "eye"){
 	legs_sprouted = false
@@ -94,7 +99,34 @@ if (current_limb == "leg"){
 	if xsp == 0 and ! leg_sprout{
 		sprite_index = leg_idle
 	}
-}	
+}
+
+if (current_limb == "mouth") {
+    var scale = 2;
+    
+    // Adjust position to keep bottom fixed; otherwise you get stuck to the ground
+    var delta = (scale - image_yscale) * sprite_height;
+    y -= delta; // Move up to compensate
+
+    image_xscale = scale;
+    image_yscale = scale;
+}
+else {
+    image_xscale = 1;
+    image_yscale = 1;
+}
+	
+if keyboard_check_pressed(vk_left)
+{
+	xsp =- 2.5
+	image_xscale = -1
+}
+
+if keyboard_check_pressed(vk_right)
+{
+	xsp =+ 2.5
+	image_xscale = 1
+}
 
 // if you're on the ground, be able to jump
 if place_meeting(x, y+1, oSolid)
@@ -116,6 +148,16 @@ if (switch_cooldown > 0)
 if place_meeting(x, y, oSpike)
 {
 	room_restart();
+}
+
+if place_meeting(x, y, oEnemy)
+{
+	room_restart();
+}
+
+if (place_meeting(x, y, oFlag))
+{
+    room_goto_next();
 }
 
 //eye logic
