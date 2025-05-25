@@ -32,17 +32,14 @@ else if xsp < 0 and ysp >= 0
 	{xsp = 0}
 }
 
-// enter eye state, no movement
+// enter eye state, no movement]
+
 if (current_limb == "eye"){
 	legs_sprouted = false
-	// if eyes haven't sprouted, do that
 	if !eyes_sprouted{
-		image_speed = 1
-		sprite_index = eyes_anim
-		eyes_sprouted = true
-	} if image_index == 6{
-		image_speed = 1
-		sprite_index = eyes_idle;
+	image_index = 1
+	sprite_index = eyes_anim
+	eyes_sprouted = true
 	}
 }
 
@@ -56,6 +53,7 @@ if (current_limb == "crawl"){
 		image_xscale = -1
 		image_speed = 0.7
 		sprite_index = scoot_palindrone_anim
+
     }
     if (keyboard_check(vk_right)) {
         xsp = 0.3;
@@ -75,15 +73,9 @@ if (current_limb == "leg"){
 	// set animation to legs sprouting
 	// IF legs haven't already sprouted
 	if !legs_sprouted{
-		image_speed = 1
-		sprite_index = leg_sprout
-		legs_sprouted = true
-	}
-	if image_index == 9{
-		image_speed = 1
-		sprite_index = leg_idle;
-	}else{
-		sprite_index = leg_idle
+	image_index = 1
+	sprite_index = leg_sprout
+	legs_sprouted = true
 	}
 	// Leg movementZ
 	ysp += 0.1 //small gravity
@@ -99,7 +91,7 @@ if (current_limb == "leg"){
 		image_speed = 1
 		sprite_index = walk_anim
     }
-	if xsp == 0 {
+	if xsp == 0 and ! leg_sprout{
 		sprite_index = leg_idle
 	}
 }	
