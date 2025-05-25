@@ -13,3 +13,7 @@ current_limb = "eye";
 switch_cooldown = 0;
 switch_delay = 2; //frames
 
+//Animation Management
+flip_direction = false
+legs_sprouted = false
+eyes_sprouted = false
