@@ -13,7 +13,7 @@ var i;
 var spd		=	1; // The speed to move the object
 var space	=	0; // The minimum distance to another object before we swerve (if zero we bounce off them)
 var ang		=	5; // Bounce angle, will prevent us from moving along the walls (I recomend 5)
-
+// if you have a lot of enemies in a room or area (like, more than 6 or so) set the second argument to 0 which will bounce the objects instead of swerve. Otherwise you may find your enemies keep going in circles.
 var dist	=	distance_to_object(all); // Checks our distance to other objects not including ourselves
 
 var top		=	0;
