@@ -6,10 +6,8 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_4E972020","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_1BD61400","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_1B4EABC4","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_3A228E4B","path":"rooms/start_screen/start_screen.yy",},
+    {"name":"inst_74C6BCCF","path":"rooms/start_screen/start_screen.yy",},
+    {"name":"inst_5358E1FB","path":"rooms/start_screen/start_screen.yy",},
   ],
   "isDnd":false,
   "layers":[
