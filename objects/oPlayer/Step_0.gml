@@ -22,8 +22,8 @@ if (keyboard_check_pressed(ord("4")) && switch_cooldown <= 0) {
 // leg state player controller 
 if (current_limb != "leg"){
 	//big gravity
-	while ysp < 4{
-		ysp += 0.6 
+	if ysp < 5{
+		ysp += 0.3
 	}
 }
 
@@ -54,8 +54,8 @@ if (current_limb == "eye"){
 if (current_limb == "crawl"){
 	eyes_sprouted = false
 	legs_sprouted = false
-	while ysp < 5 {
-		ysp += 0.1 //small gravity
+	if ysp < 2 {
+		ysp += 0.3 //small gravity
 	}
     if (keyboard_check(vk_left)) {
         xsp = -0.3;
