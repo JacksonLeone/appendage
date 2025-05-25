@@ -1,5 +1,5 @@
-width = 280
-height = 80
+button_width = 250
+button_height = 60
 
 text = "click here"
 

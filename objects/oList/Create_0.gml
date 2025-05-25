@@ -1,6 +1,6 @@
 // properties
-width = 640
-height = 380
+width = 375
+height = 190
 
 //gui
 itemH = 48

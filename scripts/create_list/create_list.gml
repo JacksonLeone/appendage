@@ -27,7 +27,7 @@ function create_list(){
 			case LIST_TYPE.GAME_OPTIONS:
 				ds_list_add(options_list,["Settings", 0, [1,2,3,4]])
 				ds_list_add(options_list,["Mode", 0, [1,2]])
-				ds_list_add(options_list,["Difficulty", 0, ["Ez","Med","Hard","Straight Slimey"]])
+				ds_list_add(options_list,["Difficulty", 0, ["Ez","Med","Slimey"]])
 				ds_list_add(options_list,["Close", -1, []])
 			break;
 		}
