@@ -1,17 +1,49 @@
 if (current_limb != "leg")
 {
-		ysp += 0.6 //big gravity
-	if xsp > 0 and ysp >= 0
+    current_limb = "eye"
+    switch_cooldown = switch_delay
+}
+if (keyboard_check_pressed(ord("2")) && switch_cooldown <= 0) 
+{
+    current_limb = "crawl"
+    switch_cooldown = switch_delay;
+}
+if (keyboard_check_pressed(ord("3")) && switch_cooldown <= 0) 
+{
+    current_limb = "leg"
+    switch_cooldown = switch_delay;
+}
+if (keyboard_check_pressed(ord("4")) && switch_cooldown <= 0) {
+    current_limb = "mouth"
+	//gravity_multiplier += 0.1;
+	 switch_cooldown = switch_delay;
+}
+
+//big gravity
+ysp += 0.6 
+
+// if you were moving, stop (friction bby)
+			if xsp > 0 and ysp >= 0
 	{
 		xsp -= 0.25
-		if xsp < 0
-		{xsp = 0}
+		if xsp < 0 {
+		xsp = 0}
 	} 
 	else if xsp < 0 and ysp >= 0
 	{
 		xsp += 0.25
 		if xsp > 0
 		{xsp = 0}
+	}
+
+	// enter eye state, no movement]
+
+if (current_limb == "eye"){
+	legs_sprouted = false
+	if !eyes_sprouted{
+	image_index = 1
+	sprite_index = eyes_anim
+	eyes_sprouted = true
 	}
 	if keyboard_check_pressed(vk_left)
 		{xsp =- 2.5}
@@ -29,6 +61,9 @@ if (current_limb == "leg"){
     if (keyboard_check(vk_right)) {
         xsp = 1.5;
     }
+	if xsp == 0 and ! leg_sprout{
+		sprite_index = leg_idle
+	}
 }
 
 if (current_limb == "mouth") {
