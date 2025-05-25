@@ -19,9 +19,9 @@ if (keyboard_check_pressed(ord("4")) && switch_cooldown <= 0) {
 	//gravity_multiplier += 0.1;
 	 switch_cooldown = switch_delay;
 }
-
+if (current_limb != "leg"){
 //big gravity
-ysp += 0.6 
+ysp += 0.6 }
 
 // if you were moving, stop (friction bby)
 if xsp > 0 and ysp >= 0{
@@ -80,7 +80,7 @@ if (current_limb == "leg"){
 	sprite_index = leg_sprout
 	legs_sprouted = true
 	}
-	// Leg movementZ
+	// Leg movement
 	ysp += 0.1 //small gravity
     if (keyboard_check(vk_left)) {
         xsp = -1.5;
