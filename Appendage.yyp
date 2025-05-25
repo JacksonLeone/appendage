@@ -20,7 +20,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Appendage",
   "resources":[
@@ -31,6 +31,8 @@
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},},
     {"id":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},},
     {"id":{"name":"oStartScreen","path":"objects/oStartScreen/oStartScreen.yy",},},
+    {"id":{"name":"oYellowEnemy","path":"objects/oYellowEnemy/oYellowEnemy.yy",},},
+    {"id":{"name":"dodge_enemies","path":"rooms/dodge_enemies/dodge_enemies.yy",},},
     {"id":{"name":"JaredTest","path":"rooms/JaredTest/JaredTest.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
     {"id":{"name":"nomnom","path":"rooms/nomnom/nomnom.yy",},},
@@ -52,12 +54,14 @@
     {"id":{"name":"slimey","path":"sprites/slimey/slimey.yy",},},
     {"id":{"name":"sSolid","path":"sprites/sSolid/sSolid.yy",},},
     {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},},
+    {"id":{"name":"syellowEnemy","path":"sprites/syellowEnemy/syellowEnemy.yy",},},
     {"id":{"name":"walk_anim","path":"sprites/walk_anim/walk_anim.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"JaredTest","path":"rooms/JaredTest/JaredTest.yy",},},
+    {"roomId":{"name":"dodge_enemies","path":"rooms/dodge_enemies/dodge_enemies.yy",},},
     {"roomId":{"name":"nomnom","path":"rooms/nomnom/nomnom.yy",},},
     {"roomId":{"name":"trust_fall","path":"rooms/trust_fall/trust_fall.yy",},},
     {"roomId":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
