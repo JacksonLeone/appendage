@@ -6,6 +6,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"oBg_mgr","order":4,"path":"objects/oBg_mgr/oBg_mgr.yy",},
+    {"name":"oEnemy","order":6,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"oFlag","order":5,"path":"objects/oFlag/oFlag.yy",},
     {"name":"oSolid","order":1,"path":"objects/oSolid/oSolid.yy",},
     {"name":"oSpike","order":2,"path":"objects/oSpike/oSpike.yy",},
