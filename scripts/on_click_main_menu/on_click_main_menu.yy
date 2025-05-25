@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"create_button",
+  "%Name":"on_click_main_menu",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"create_button",
+  "name":"on_click_main_menu",
   "parent":{
     "name":"button_scripts",
     "path":"folders/scripts/GUI/button_scripts.yy",

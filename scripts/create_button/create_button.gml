@@ -11,8 +11,8 @@ function create_button(){
 
 	// Set Values
 	with (_button) {
-		width = _width
-		height = _height
+		button_width = _width
+		button_height = _height
 		text = _text
 		var_script = _script
 	}
