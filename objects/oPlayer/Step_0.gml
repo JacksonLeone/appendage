@@ -157,6 +157,11 @@ if place_meeting(x, y, oSpike)
 	room_restart();
 }
 
+if place_meeting(x, y, oShard)
+{
+	room_restart();
+}
+
 if place_meeting(x, y, oEnemy)
 {
 	room_restart();
