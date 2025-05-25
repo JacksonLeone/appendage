@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"create_button",
+  "%Name":"create_roomSelector",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"create_button",
+  "name":"create_roomSelector",
   "parent":{
-    "name":"button_scripts",
-    "path":"folders/scripts/GUI/button_scripts.yy",
+    "name":"GUI",
+    "path":"folders/scripts/GUI.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
