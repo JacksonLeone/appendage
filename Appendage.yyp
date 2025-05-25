@@ -88,6 +88,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"start_screen","path":"rooms/start_screen/start_screen.yy",},},
     {"roomId":{"name":"DialogueTest","path":"rooms/DialogueTest/DialogueTest.yy",},},
     {"roomId":{"name":"dodge_enemies","path":"rooms/dodge_enemies/dodge_enemies.yy",},},
     {"roomId":{"name":"JaredTest","path":"rooms/JaredTest/JaredTest.yy",},},
@@ -95,7 +96,6 @@
     {"roomId":{"name":"nomnom","path":"rooms/nomnom/nomnom.yy",},},
     {"roomId":{"name":"trust_fall","path":"rooms/trust_fall/trust_fall.yy",},},
     {"roomId":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
-    {"roomId":{"name":"start_screen","path":"rooms/start_screen/start_screen.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Main","path":"rooms/Main/Main.yy",},},
   ],
