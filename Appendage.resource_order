@@ -11,6 +11,7 @@
     {"name":"oSpike","order":2,"path":"objects/oSpike/oSpike.yy",},
     {"name":"oStartScreen","order":3,"path":"objects/oStartScreen/oStartScreen.yy",},
     {"name":"JaredTest","order":3,"path":"rooms/JaredTest/JaredTest.yy",},
+    {"name":"nomnom","order":5,"path":"rooms/nomnom/nomnom.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"trust_fall","order":4,"path":"rooms/trust_fall/trust_fall.yy",},
     {"name":"tutorial","order":3,"path":"rooms/tutorial/tutorial.yy",},

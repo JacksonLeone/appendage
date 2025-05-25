@@ -57,83 +57,40 @@
   "MetaData": {
     "IDEVersion": "2024.13.1.193"
   },
-  "name": "Appendage",
-  "resources": [
-    { "id": { "name": "oBg_mgr", "path": "objects/oBg_mgr/oBg_mgr.yy" } },
-    { "id": { "name": "oFlag", "path": "objects/oFlag/oFlag.yy" } },
-    { "id": { "name": "oPlayer", "path": "objects/oPlayer/oPlayer.yy" } },
-    { "id": { "name": "oSolid", "path": "objects/oSolid/oSolid.yy" } },
-    { "id": { "name": "oSpike", "path": "objects/oSpike/oSpike.yy" } },
-    {
-      "id": {
-        "name": "oStartScreen",
-        "path": "objects/oStartScreen/oStartScreen.yy"
-      }
-    },
-    { "id": { "name": "JaredTest", "path": "rooms/JaredTest/JaredTest.yy" } },
-    { "id": { "name": "Main", "path": "rooms/Main/Main.yy" } },
-    { "id": { "name": "Room2", "path": "rooms/Room2/Room2.yy" } },
-    {
-      "id": {
-        "name": "start_screen",
-        "path": "rooms/start_screen/start_screen.yy"
-      }
-    },
-    {
-      "id": { "name": "trust_fall", "path": "rooms/trust_fall/trust_fall.yy" }
-    },
-    { "id": { "name": "tutorial", "path": "rooms/tutorial/tutorial.yy" } },
-    { "id": { "name": "eyes_anim", "path": "sprites/eyes_anim/eyes_anim.yy" } },
-    { "id": { "name": "eyes_idle", "path": "sprites/eyes_idle/eyes_idle.yy" } },
-    { "id": { "name": "idle_anim", "path": "sprites/idle_anim/idle_anim.yy" } },
-    { "id": { "name": "leg_idle", "path": "sprites/leg_idle/leg_idle.yy" } },
-    {
-      "id": { "name": "leg_sprout", "path": "sprites/leg_sprout/leg_sprout.yy" }
-    },
-    {
-      "id": {
-        "name": "sBackground",
-        "path": "sprites/sBackground/sBackground.yy"
-      }
-    },
-    { "id": { "name": "sBlur", "path": "sprites/sBlur/sBlur.yy" } },
-    {
-      "id": { "name": "scoot_anim", "path": "sprites/scoot_anim/scoot_anim.yy" }
-    },
-    {
-      "id": {
-        "name": "scoot_palindrone_anim",
-        "path": "sprites/scoot_palindrone_anim/scoot_palindrone_anim.yy"
-      }
-    },
-    { "id": { "name": "sFlag", "path": "sprites/sFlag/sFlag.yy" } },
-    { "id": { "name": "sGuy", "path": "sprites/sGuy/sGuy.yy" } },
-    { "id": { "name": "slimey", "path": "sprites/slimey/slimey.yy" } },
-    { "id": { "name": "sSolid", "path": "sprites/sSolid/sSolid.yy" } },
-    { "id": { "name": "sSpike", "path": "sprites/sSpike/sSpike.yy" } },
-    { "id": { "name": "walk_anim", "path": "sprites/walk_anim/walk_anim.yy" } }
+  "name":"Appendage",
+  "resources":[
+    {"id":{"name":"oBg_mgr","path":"objects/oBg_mgr/oBg_mgr.yy",},},
+    {"id":{"name":"oFlag","path":"objects/oFlag/oFlag.yy",},},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},},
+    {"id":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},},
+    {"id":{"name":"oStartScreen","path":"objects/oStartScreen/oStartScreen.yy",},},
+    {"id":{"name":"JaredTest","path":"rooms/JaredTest/JaredTest.yy",},},
+    {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
+    {"id":{"name":"nomnom","path":"rooms/nomnom/nomnom.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"start_screen","path":"rooms/start_screen/start_screen.yy",},},
+    {"id":{"name":"trust_fall","path":"rooms/trust_fall/trust_fall.yy",},},
+    {"id":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
+    {"id":{"name":"eyes_anim","path":"sprites/eyes_anim/eyes_anim.yy",},},
+    {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
+    {"id":{"name":"sBlur","path":"sprites/sBlur/sBlur.yy",},},
+    {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},},
+    {"id":{"name":"sGuy","path":"sprites/sGuy/sGuy.yy",},},
+    {"id":{"name":"slimey","path":"sprites/slimey/slimey.yy",},},
+    {"id":{"name":"sSolid","path":"sprites/sSolid/sSolid.yy",},},
+    {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},},
   ],
-  "resourceType": "GMProject",
-  "resourceVersion": "2.0",
-  "RoomOrderNodes": [
-    {
-      "roomId": { "name": "JaredTest", "path": "rooms/JaredTest/JaredTest.yy" }
-    },
-    {
-      "roomId": {
-        "name": "trust_fall",
-        "path": "rooms/trust_fall/trust_fall.yy"
-      }
-    },
-    { "roomId": { "name": "tutorial", "path": "rooms/tutorial/tutorial.yy" } },
-    { "roomId": { "name": "Room2", "path": "rooms/Room2/Room2.yy" } },
-    {
-      "roomId": {
-        "name": "start_screen",
-        "path": "rooms/start_screen/start_screen.yy"
-      }
-    },
-    { "roomId": { "name": "Main", "path": "rooms/Main/Main.yy" } }
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"JaredTest","path":"rooms/JaredTest/JaredTest.yy",},},
+    {"roomId":{"name":"nomnom","path":"rooms/nomnom/nomnom.yy",},},
+    {"roomId":{"name":"trust_fall","path":"rooms/trust_fall/trust_fall.yy",},},
+    {"roomId":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"start_screen","path":"rooms/start_screen/start_screen.yy",},},
+    {"roomId":{"name":"Main","path":"rooms/Main/Main.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
