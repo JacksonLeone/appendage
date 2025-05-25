@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"idle_anim",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
-  "bbox_left":0,
-  "bbox_right":63,
+  "bbox_left":11,
+  "bbox_right":52,
   "bbox_top":25,
   "collisionKind":1,
   "collisionTolerance":0,
