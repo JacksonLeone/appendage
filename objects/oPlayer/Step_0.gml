@@ -40,8 +40,7 @@ if (current_limb == "eye"){
 		image_speed = 1
 		sprite_index = eyes_anim
 		eyes_sprouted = true
-	}
-	if image_index == 12{
+	} if image_index == 6{
 		image_speed = 1
 		sprite_index = eyes_idle;
 	}
