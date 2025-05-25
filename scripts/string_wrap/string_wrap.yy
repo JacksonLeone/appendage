@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"get_hover",
+  "%Name":"string_wrap",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"get_hover",
+  "name":"string_wrap",
   "parent":{
-    "name":"GUI",
-    "path":"folders/scripts/GUI.yy",
+    "name":"Dialogue",
+    "path":"folders/scripts/Dialogue.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

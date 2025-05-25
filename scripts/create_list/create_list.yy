@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"create_list",
   "parent":{
-    "name":"scripts",
-    "path":"folders/scripts.yy",
+    "name":"GUI",
+    "path":"folders/scripts/GUI.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
