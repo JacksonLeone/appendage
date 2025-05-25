@@ -6,8 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_74C6BCCF","path":"rooms/start_screen/start_screen.yy",},
-    {"name":"inst_5358E1FB","path":"rooms/start_screen/start_screen.yy",},
   ],
   "isDnd":false,
   "layers":[
