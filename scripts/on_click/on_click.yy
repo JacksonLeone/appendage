@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"on_click",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"on_click",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
