@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"leg_sprout",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
   "bbox_left":11,
   "bbox_right":52,

@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"scoot_anim",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
   "bbox_left":11,
-  "bbox_right":63,
+  "bbox_right":52,
   "bbox_top":26,
   "collisionKind":1,
   "collisionTolerance":0,
