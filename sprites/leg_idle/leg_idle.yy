@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"leg_idle",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
-  "bbox_left":9,
-  "bbox_right":54,
+  "bbox_left":12,
+  "bbox_right":52,
   "bbox_top":16,
   "collisionKind":1,
   "collisionTolerance":0,

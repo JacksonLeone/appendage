@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"eyes_anim",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
   "bbox_left":11,
-  "bbox_right":54,
+  "bbox_right":51,
   "bbox_top":21,
   "collisionKind":1,
   "collisionTolerance":0,
