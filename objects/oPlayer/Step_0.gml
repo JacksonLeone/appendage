@@ -19,22 +19,26 @@ if (keyboard_check_pressed(ord("4")) && switch_cooldown <= 0) {
 	//gravity_multiplier += 0.1;
 	 switch_cooldown = switch_delay;
 }
+// leg state player controller 
 if (current_limb != "leg"){
-//big gravity
-ysp += 0.6 }
+	//big gravity
+	while ysp < 4{
+		ysp += 0.6 
+	}
+}
 
 // if you were moving, stop (friction bby)
 if xsp > 0 and ysp >= 0{
 	xsp -= 0.25
 	if xsp < 0 {
-		xsp = 0}
-	} 
-	else if xsp < 0 and ysp >= 0
-	{
-		xsp += 0.25
-		if xsp > 0
-		{xsp = 0}
+		xsp = 0
 	}
+}else if xsp < 0 and ysp >= 0{
+	xsp += 0.25
+	if xsp > 0{
+		xsp = 0
+	}
+}
 
 // enter eye state, no movement]
 if (current_limb == "eye"){
@@ -50,7 +54,9 @@ if (current_limb == "eye"){
 if (current_limb == "crawl"){
 	eyes_sprouted = false
 	legs_sprouted = false
-	ysp += 0.1 //small gravity
+	while ysp < 5 {
+		ysp += 0.1 //small gravity
+	}
     if (keyboard_check(vk_left)) {
         xsp = -0.3;
 		image_xscale = -1
@@ -161,17 +167,7 @@ if (place_meeting(x, y, oFlag))
     room_goto_next();
 }
 
-//eye logic
-//if (current_limb == "eye") {
-//    screen_alpha = 1;
-//} else {
-//    screen_alpha = 0.3;
-//}
-
 move_and_collide(xsp, ysp, oSolid)
-
-//if place_meeting(x, y, oSolid)
-
 
 // Animation States
 if flip_direction {
