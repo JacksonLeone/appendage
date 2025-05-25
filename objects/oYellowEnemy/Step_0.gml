@@ -10,8 +10,8 @@
 
 // Define local variables for this script
 var i;
-var spd		=	5; // The speed to move the object
-var space	=	80; // The minimum distance to another object before we swerve (if zero we bounce off them)
+var spd		=	1; // The speed to move the object
+var space	=	0; // The minimum distance to another object before we swerve (if zero we bounce off them)
 var ang		=	5; // Bounce angle, will prevent us from moving along the walls (I recomend 5)
 
 var dist	=	distance_to_object(all); // Checks our distance to other objects not including ourselves

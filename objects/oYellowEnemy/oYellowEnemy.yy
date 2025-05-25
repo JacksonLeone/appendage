@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oEnemy",
+  "%Name":"oYellowEnemy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEnemy",
+  "name":"oYellowEnemy",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +29,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"sEnemy",
-    "path":"sprites/sEnemy/sEnemy.yy",
+    "name":"syellowEnemy",
+    "path":"sprites/syellowEnemy/syellowEnemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
