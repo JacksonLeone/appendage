@@ -1,4 +1,4 @@
-// In a controller object's Step Event
+  // In a controller object's Step Event
 var player_x = oPlayer.x;
 var player_y = oPlayer.y;
 
