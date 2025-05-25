@@ -1,7 +1,7 @@
 draw_set_font(fDialogue);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-draw_set_color(c_white);
+draw_set_color(c_black);
 
 var _len = string_length(text[text_current]);
 if (char_current < _len)
