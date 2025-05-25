@@ -19,6 +19,10 @@ if (keyboard_check_pressed(ord("4")) && switch_cooldown <= 0) {
 	//gravity_multiplier += 0.1;
 	 switch_cooldown = switch_delay;
 }
+if (keyboard_check_pressed(ord("5")) && switch_cooldown <= 0) {
+    current_limb = "arm"
+	 switch_cooldown = switch_delay;
+}
 // leg state player controller 
 if (current_limb != "leg"){
 	//big gravity
@@ -43,6 +47,7 @@ if xsp > 0 and ysp >= 0{
 // enter eye state, no movement]
 if (current_limb == "eye"){
 	legs_sprouted = false
+	arms_sprouted = false
 	if !eyes_sprouted{
 	image_index = 1
 	sprite_index = eyes_anim
@@ -54,6 +59,7 @@ if (current_limb == "eye"){
 if (current_limb == "crawl"){
 	eyes_sprouted = false
 	legs_sprouted = false
+	arms_sprouted = false
 	if ysp < 2 {
 		ysp += 0.3 //small gravity
 	}
@@ -79,6 +85,7 @@ if (current_limb == "crawl"){
 //leg logic
 if (current_limb == "leg"){
 	eyes_sprouted = false
+	arms_sprouted = false
 	// set animation to legs sprouting
 	// IF legs haven't already sprouted
 	if !legs_sprouted{
@@ -105,8 +112,37 @@ if (current_limb == "leg"){
 	}
 }
 
+//arm logic
+if (current_limb == "arm"){
+	eyes_sprouted = false
+	legs_sprouted = false
+	// set animation to arms sprouting
+	// IF arms haven't already sprouted
+	if !arms_sprouted{
+	image_index = 1
+	sprite_index = arms_sprout
+	arms_sprouted = true
+	}
+	// climbing movement
+	//ysp -= 0.3 //cancel out with previous gravity
+    if (keyboard_check(vk_up)) {
+        ysp = -0.5;
+		image_speed = 1
+		sprite_index = arms_climb
+    }
+    if (keyboard_check(vk_down)) {
+        ysp = 0.5;
+		image_speed = 1
+		sprite_index = arms_climb
+    }
+	if ysp == 0 and sprite_index != arms_sprout{
+		sprite_index = arms_idle
+	}
+}
+
 if (current_limb == "mouth") {
 	eyes_sprouted = false
+	arms_sprouted = false
     var scale = 2;
     
     // Adjust position to keep bottom fixed; otherwise you get stuck to the ground
