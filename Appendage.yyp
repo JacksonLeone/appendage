@@ -42,6 +42,7 @@
     {"id":{"name":"oList","path":"objects/oList/oList.yy",},},
     {"id":{"name":"oManager","path":"objects/oManager/oManager.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oRoomSelector","path":"objects/oRoomSelector/oRoomSelector.yy",},},
     {"id":{"name":"oShard","path":"objects/oShard/oShard.yy",},},
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},},
     {"id":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},},

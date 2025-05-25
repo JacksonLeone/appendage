@@ -20,6 +20,7 @@
     {"name":"oEnemy","order":8,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"oFlag","order":6,"path":"objects/oFlag/oFlag.yy",},
     {"name":"oManager","order":2,"path":"objects/oManager/oManager.yy",},
+    {"name":"oRoomSelector","order":13,"path":"objects/oRoomSelector/oRoomSelector.yy",},
     {"name":"oShard","order":10,"path":"objects/oShard/oShard.yy",},
     {"name":"oSolid","order":1,"path":"objects/oSolid/oSolid.yy",},
     {"name":"oSpike","order":2,"path":"objects/oSpike/oSpike.yy",},
