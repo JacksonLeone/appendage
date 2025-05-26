@@ -17,3 +17,4 @@ switch_delay = 2; //frames
 flip_direction = false
 legs_sprouted = false
 eyes_sprouted = false
+arms_sprouted = false
