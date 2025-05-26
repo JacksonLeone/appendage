@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oEnemies_PC_start",
+  "%Name":"oTutorial_completed",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEnemies_PC_start",
+  "name":"oTutorial_completed",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Dialogue/Enemies.yy",
+    "name":"Tutorial",
+    "path":"folders/Objects/Dialogue/Tutorial.yy",
   },
   "parentObjectId":{
     "name":"oDialogueParent",
