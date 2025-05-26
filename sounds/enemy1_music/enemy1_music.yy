@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"enemy1_music",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":277.4204,
+  "name":"enemy1_music",
+  "parent":{
+    "name":"Appendage",
+    "path":"Appendage.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"enemy1_music.mp3",
+  "type":0,
+  "volume":1.0,
+}

@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"trust_fall",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/trust_fall/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
