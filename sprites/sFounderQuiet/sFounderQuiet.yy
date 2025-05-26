@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Founder",
-    "path":"folders/Sprites/Founder.yy",
+    "path":"folders/Sprites/forDialogue/Founder.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

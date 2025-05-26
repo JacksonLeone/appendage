@@ -1,4 +1,4 @@
-room_list = [tutorial, trust_fall, dodge_enemies, enemies2, nomnom, DialogueTest];
+room_list = [tutorial, trust_fall, dodge_enemies, enemies2, nomnom, opening_dialogue];
 room_names = ["Tutorial", "Trust Fall", "Enemies", "Enemies 2", "Mouth", "DialogueTest"];
 
 button_width = 200;

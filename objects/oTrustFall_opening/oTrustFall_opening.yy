@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oDialogueA",
+  "%Name":"oTrustFall_opening",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oDialogueA",
+  "name":"oTrustFall_opening",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"TrustFall",
+    "path":"folders/Objects/Dialogue/TrustFall.yy",
   },
   "parentObjectId":{
     "name":"oDialogueParent",
