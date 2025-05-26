@@ -2,7 +2,7 @@
 
 var _width = 250
 var _height = 80
-
+draw_set_font(P2S_font)
 create_button(40,80, _width, _height,"Play",on_click_play)
 create_button(40,_height+120,_width,_height,"Options",on_click)
 create_button(40,(_height*2)+160,_width,_height,"Menu",on_click_main_menu)
