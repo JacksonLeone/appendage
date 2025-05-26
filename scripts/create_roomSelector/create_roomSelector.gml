@@ -4,8 +4,8 @@ function create_roomSelector(){
 
 	// Set Values
 	with (_RoomSelector) {
-		room_list = [tutorial, trust_fall, dodge_enemies, enemies2, nomnom, opening_dialogue];
-		room_names = ["Tutorial", "Trust\nFall", "Enemies", "Enemies\n2", "Mouth", "Dialogue\nTest"];
+		room_list = [tutorial, trust_fall, dodge_enemies, enemies2, ladders, nomnom];
+		room_names = ["Tutorial", "Trust\nFall", "Enemies", "Enemies\n2", "Climbing", "Escape"];
 
 		button_width = 275;
 		button_height = 70;
