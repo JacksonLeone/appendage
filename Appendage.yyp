@@ -78,6 +78,7 @@
     {"id":{"name":"oYellowEnemy","path":"objects/oYellowEnemy/oYellowEnemy.yy",},},
     {"id":{"name":"credits_room","path":"rooms/credits_room/credits_room.yy",},},
     {"id":{"name":"dodge_enemies","path":"rooms/dodge_enemies/dodge_enemies.yy",},},
+    {"id":{"name":"enemies_comp_1","path":"rooms/enemies_comp_1/enemies_comp_1.yy",},},
     {"id":{"name":"enemies2","path":"rooms/enemies2/enemies2.yy",},},
     {"id":{"name":"JaredTest","path":"rooms/JaredTest/JaredTest.yy",},},
     {"id":{"name":"ladders","path":"rooms/ladders/ladders.yy",},},
@@ -162,6 +163,7 @@
     {"roomId":{"name":"credits_room","path":"rooms/credits_room/credits_room.yy",},},
     {"roomId":{"name":"level1_dialogue","path":"rooms/level1_dialogue/level1_dialogue.yy",},},
     {"roomId":{"name":"JaredTest","path":"rooms/JaredTest/JaredTest.yy",},},
+    {"roomId":{"name":"enemies_comp_1","path":"rooms/enemies_comp_1/enemies_comp_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
