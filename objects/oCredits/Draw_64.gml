@@ -8,7 +8,11 @@ if namesAppeared {
 
 	// Draw start text with fade-in
 	draw_set_alpha(text_alpha);
-	draw_text(room_width / 2 + 200, 10, credits_text);
+	draw_text(room_width / 2 + 200, 10, escape_text);
+	draw_text(200, 200, coding_text);
+	
+	draw_text(880, 290, art_text);
+	draw_text(880, 50, story_text);
 	draw_set_alpha(1); // Reset alpha
 
 	end_button_width = 150
