@@ -1,25 +1,30 @@
 // Toggle limbs
 if (keyboard_check_pressed(ord("1")) && switch_cooldown <= 0) 
 {
+	audio_play_sound(limbswitch_music,1,false);
     current_limb = "eye"
     switch_cooldown = switch_delay
 }
 if (keyboard_check_pressed(ord("2")) && switch_cooldown <= 0) 
 {
+	audio_play_sound(limbswitch_music,1,false);
     current_limb = "crawl"
     switch_cooldown = switch_delay;
 }
 if (keyboard_check_pressed(ord("3")) && switch_cooldown <= 0) 
 {
+	audio_play_sound(limbswitch_music,1,false);
     current_limb = "leg"
     switch_cooldown = switch_delay;
 }
 if (keyboard_check_pressed(ord("4")) && switch_cooldown <= 0) {
+	audio_play_sound(limbswitch_music,1,false);
     current_limb = "mouth"
 	//gravity_multiplier += 0.1;
 	 switch_cooldown = switch_delay;
 }
 if (keyboard_check_pressed(ord("5")) && switch_cooldown <= 0) {
+	audio_play_sound(limbswitch_music,1,false);
     current_limb = "arm"
 	//gravity_multiplier += 0.1;
 	 switch_cooldown = switch_delay;
@@ -112,6 +117,7 @@ if (current_limb == "crawl"){
 		ysp += 0.3 //small gravity
 	}
     if (keyboard_check(vk_left)) {
+		audio_play_sound(crawl_music,1,false);
         xsp = -0.3;
 		image_xscale = -1
 		image_speed = 0.7
@@ -119,6 +125,7 @@ if (current_limb == "crawl"){
 
     }
     if (keyboard_check(vk_right)) {
+		audio_play_sound(crawl_music,1,false);
         xsp = 0.3;
 		image_xscale = 1
 		image_speed = 0.7
@@ -144,12 +151,14 @@ if (current_limb == "leg"){
 	// Leg movement
 	ysp += 0.1 //small gravity
     if (keyboard_check(vk_left)) {
+		audio_play_sound(crawl_music,1,false);
         xsp = -1.5;
 		image_xscale = -1
 		image_speed = 1
 		sprite_index = walk_anim
     }
     if (keyboard_check(vk_right)) {
+		audio_play_sound(crawl_music,1,false);
         xsp = 1.5;
 		image_xscale = 1
 		image_speed = 1
@@ -197,6 +206,7 @@ if place_meeting(x, y+1, oSolid) && current_limb != "eye"
 	ysp = 0
 	if keyboard_check_pressed(vk_up)
 	{
+		audio_play_sound(jump_music,1,false);
 		ysp =-4
 	}
 }
@@ -210,21 +220,25 @@ if (switch_cooldown > 0)
 	
 if place_meeting(x, y, oSpike)
 {
+	audio_play_sound(death_music,1,false);
 	room_restart();
 }
 
 if place_meeting(x, y, oShard)
 {
+	audio_play_sound(death_music,1,false);
 	room_restart();
 }
 
 if place_meeting(x, y, oEnemy)
 {
+	audio_play_sound(death_music,1,false);
 	room_restart();
 }
 
 if place_meeting(x, y, oYellowEnemy)
 {
+	audio_play_sound(death_music,1,false);
 	room_restart();
 }
 

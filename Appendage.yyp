@@ -37,7 +37,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Appendage",
   "resources":[
@@ -96,8 +96,13 @@
     {"id":{"name":"settings_const","path":"scripts/settings_const/settings_const.yy",},},
     {"id":{"name":"string_wrap","path":"scripts/string_wrap/string_wrap.yy",},},
     {"id":{"name":"climbing_music","path":"sounds/climbing_music/climbing_music.yy",},},
+    {"id":{"name":"crawl_music","path":"sounds/crawl_music/crawl_music.yy",},},
+    {"id":{"name":"death_music","path":"sounds/death_music/death_music.yy",},},
     {"id":{"name":"enemy1_music","path":"sounds/enemy1_music/enemy1_music.yy",},},
     {"id":{"name":"enemy2_music","path":"sounds/enemy2_music/enemy2_music.yy",},},
+    {"id":{"name":"jump_music","path":"sounds/jump_music/jump_music.yy",},},
+    {"id":{"name":"legmove_music","path":"sounds/legmove_music/legmove_music.yy",},},
+    {"id":{"name":"limbswitch_music","path":"sounds/limbswitch_music/limbswitch_music.yy",},},
     {"id":{"name":"mouth_music","path":"sounds/mouth_music/mouth_music.yy",},},
     {"id":{"name":"titlescreen_music","path":"sounds/titlescreen_music/titlescreen_music.yy",},},
     {"id":{"name":"trustfall_music","path":"sounds/trustfall_music/trustfall_music.yy",},},
