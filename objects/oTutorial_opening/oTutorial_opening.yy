@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oLevel1Dialogue",
+  "%Name":"oTutorial_opening",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oLevel1Dialogue",
+  "name":"oTutorial_opening",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dialogue",
-    "path":"folders/Objects/Dialogue.yy",
+    "name":"Tutorial",
+    "path":"folders/Objects/Dialogue/Tutorial.yy",
   },
   "parentObjectId":{
     "name":"oDialogueParent",
