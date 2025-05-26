@@ -1,4 +1,4 @@
-if keyboard_check_pressed(ord("M")){
+if keyboard_check_pressed(vk_escape){
 	menuOpen = !menuOpen
 	if menuOpen{
 		event_user(0)

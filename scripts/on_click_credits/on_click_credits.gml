@@ -1,4 +1,3 @@
 function on_click_credits(){
-	
-show_debug_message("Button clicked: " + text)
+	room_goto(credits_room)
 }
