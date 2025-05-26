@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"slimey",
-    "path":"sprites/slimey/slimey.yy",
+    "name":"sSlimey",
+    "path":"sprites/sSlimey/sSlimey.yy",
   },
   "spriteMaskId":null,
   "visible":true,
