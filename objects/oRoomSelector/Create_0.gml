@@ -1,5 +1,5 @@
-room_list = [tutorial, trust_fall, dodge_enemies, enemies2, nomnom, opening_dialogue];
-room_names = ["Tutorial", "Trust Fall", "Enemies", "Enemies 2", "Mouth", "DialogueTest"];
+room_list = [tutorial, trust_fall, dodge_enemies, enemies2, ladders, nomnom];
+room_names = ["Tutorial", "Trust Fall", "Enemies", "Harder", "Ladders", "Escape"];
 
 button_width = 200;
 button_height = 40;

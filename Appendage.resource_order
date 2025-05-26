@@ -48,7 +48,6 @@
     {"name":"ladders","order":8,"path":"rooms/ladders/ladders.yy",},
     {"name":"level1_dialogue","order":1,"path":"rooms/level1_dialogue/level1_dialogue.yy",},
     {"name":"nomnom","order":5,"path":"rooms/nomnom/nomnom.yy",},
-    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"trust_fall","order":4,"path":"rooms/trust_fall/trust_fall.yy",},
     {"name":"tutorial","order":3,"path":"rooms/tutorial/tutorial.yy",},
     {"name":"create_button","order":3,"path":"scripts/create_button/create_button.yy",},
