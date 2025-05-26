@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
-
+dialog.add(sDoraNeutral, "Press spacebar to advance the dialogue");
 dialog.add(sFounderTalking, "\"CFC-50 isn't up to standard.\"");
 dialog.add(sFounderQuiet, "\"We're cutting the project and moving forward.\"");
 dialog.add(sDoraSad, "Another one...");

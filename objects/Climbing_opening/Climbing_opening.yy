@@ -8,8 +8,8 @@
   "name":"Climbing_opening",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Dialogue/Enemies.yy",
+    "name":"Climbing",
+    "path":"folders/Objects/Dialogue/Climbing.yy",
   },
   "parentObjectId":{
     "name":"oDialogueParent",
