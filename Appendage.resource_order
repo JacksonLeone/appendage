@@ -33,6 +33,7 @@
     {"name":"dodge_enemies","order":6,"path":"rooms/dodge_enemies/dodge_enemies.yy",},
     {"name":"enemies2","order":7,"path":"rooms/enemies2/enemies2.yy",},
     {"name":"JaredTest","order":3,"path":"rooms/JaredTest/JaredTest.yy",},
+    {"name":"ladders","order":8,"path":"rooms/ladders/ladders.yy",},
     {"name":"nomnom","order":5,"path":"rooms/nomnom/nomnom.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"trust_fall","order":4,"path":"rooms/trust_fall/trust_fall.yy",},

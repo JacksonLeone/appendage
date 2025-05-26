@@ -55,6 +55,7 @@
     {"id":{"name":"dodge_enemies","path":"rooms/dodge_enemies/dodge_enemies.yy",},},
     {"id":{"name":"enemies2","path":"rooms/enemies2/enemies2.yy",},},
     {"id":{"name":"JaredTest","path":"rooms/JaredTest/JaredTest.yy",},},
+    {"id":{"name":"ladders","path":"rooms/ladders/ladders.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
     {"id":{"name":"nomnom","path":"rooms/nomnom/nomnom.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
@@ -104,6 +105,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"start_screen","path":"rooms/start_screen/start_screen.yy",},},
     {"roomId":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
+    {"roomId":{"name":"ladders","path":"rooms/ladders/ladders.yy",},},
     {"roomId":{"name":"trust_fall","path":"rooms/trust_fall/trust_fall.yy",},},
     {"roomId":{"name":"dodge_enemies","path":"rooms/dodge_enemies/dodge_enemies.yy",},},
     {"roomId":{"name":"DialogueTest","path":"rooms/DialogueTest/DialogueTest.yy",},},
