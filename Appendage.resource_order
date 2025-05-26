@@ -50,6 +50,7 @@
     {"name":"credits_room","order":8,"path":"rooms/credits_room/credits_room.yy",},
     {"name":"dodge_enemies","order":6,"path":"rooms/dodge_enemies/dodge_enemies.yy",},
     {"name":"enemies_comp_1","order":3,"path":"rooms/enemies_comp_1/enemies_comp_1.yy",},
+    {"name":"enemies_comp_2","order":4,"path":"rooms/enemies_comp_2/enemies_comp_2.yy",},
     {"name":"enemies2","order":7,"path":"rooms/enemies2/enemies2.yy",},
     {"name":"JaredTest","order":3,"path":"rooms/JaredTest/JaredTest.yy",},
     {"name":"ladders","order":8,"path":"rooms/ladders/ladders.yy",},
