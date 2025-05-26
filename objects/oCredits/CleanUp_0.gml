@@ -1,0 +1,1 @@
+draw_set_font(P2S_font)

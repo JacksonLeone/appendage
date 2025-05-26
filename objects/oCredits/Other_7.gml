@@ -4,6 +4,5 @@ if sprite_index == credit_anim {
 }
 if sprite_index == crying_anim && !namesAppeared{
 	namesAppeared = true
-	event_user(2)
 	
 }
