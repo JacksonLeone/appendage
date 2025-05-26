@@ -54,6 +54,7 @@
     {"name":"arms_sprout","order":12,"path":"sprites/arms_sprout/arms_sprout.yy",},
     {"name":"background","order":8,"path":"sprites/background/background.yy",},
     {"name":"credit_anim","order":9,"path":"sprites/credit_anim/credit_anim.yy",},
+    {"name":"crying_anim","order":10,"path":"sprites/crying_anim/crying_anim.yy",},
     {"name":"eyes_anim","order":4,"path":"sprites/eyes_anim/eyes_anim.yy",},
     {"name":"eyes_idle","order":5,"path":"sprites/eyes_idle/eyes_idle.yy",},
     {"name":"idle_anim","order":1,"path":"sprites/idle_anim/idle_anim.yy",},

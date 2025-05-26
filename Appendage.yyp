@@ -80,6 +80,7 @@
     {"id":{"name":"arms_sprout","path":"sprites/arms_sprout/arms_sprout.yy",},},
     {"id":{"name":"background","path":"sprites/background/background.yy",},},
     {"id":{"name":"credit_anim","path":"sprites/credit_anim/credit_anim.yy",},},
+    {"id":{"name":"crying_anim","path":"sprites/crying_anim/crying_anim.yy",},},
     {"id":{"name":"eyes_anim","path":"sprites/eyes_anim/eyes_anim.yy",},},
     {"id":{"name":"eyes_idle","path":"sprites/eyes_idle/eyes_idle.yy",},},
     {"id":{"name":"idle_anim","path":"sprites/idle_anim/idle_anim.yy",},},
