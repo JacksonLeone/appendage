@@ -8,3 +8,9 @@ if sprite_index == leg_sprout {
 	sprite_index = leg_idle
 	legs_sprouted = true
 }
+
+if sprite_index == arms_sprout {
+	image_speed = 1 
+	sprite_index = arms_idle
+	arms_sprouted = true
+}
