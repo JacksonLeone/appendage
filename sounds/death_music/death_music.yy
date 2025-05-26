@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"climbing_music",
+  "%Name":"death_music",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
-  "name":"climbing_music",
+  "duration":0.64800453,
+  "name":"death_music",
   "parent":{
     "name":"Appendage",
     "path":"Appendage.yyp",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"climbing_music.mp3",
+  "soundFile":"death_music.mp3",
   "type":0,
   "volume":1.0,
 }
