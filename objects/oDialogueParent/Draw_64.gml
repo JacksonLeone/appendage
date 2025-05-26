@@ -6,8 +6,6 @@ if (showing_dialog) {
 	var padding_y = 11;
 	var text_padding = 110;
 	
-	display_set_gui_size(view_wport[0], view_hport[0]);
-	
 	draw_set_font(fDialogue)
 	
 	draw_set_alpha(alpha);
