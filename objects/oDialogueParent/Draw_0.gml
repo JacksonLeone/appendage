@@ -11,12 +11,12 @@ if (showing_dialog) {
 	draw_set_alpha(alpha);
 	
 	draw_set_color(c_black);
-	draw_sprite(sDialogueBox, 0, x, y);
+	draw_sprite(sDialogueBox, 0, oPlayer.x-200, oPlayer.y+50);
 	if (current_dialog.sprite != -1) {
-		draw_sprite(current_dialog.sprite, 1, x + padding_x, y + padding_y);
+		draw_sprite(current_dialog.sprite, 1, oPlayer.x-200 + padding_x, oPlayer.y +50+ padding_y);
 	}
 	
-	draw_text_ext(x + text_padding, y + padding_y, current_dialog.message, 16, 250)
+	draw_text_ext(oPlayer.x-200 + text_padding, oPlayer.y+50 + padding_y, current_dialog.message, 16, 250)
 	
 	alpha = lerp(alpha, 1, 0.06)
 }
