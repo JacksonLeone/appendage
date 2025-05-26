@@ -7,6 +7,7 @@
     {"name":"Climbing","order":16,"path":"folders/Objects/Dialogue/Climbing.yy",},
     {"name":"Enemies","order":7,"path":"folders/Objects/Dialogue/Enemies.yy",},
     {"name":"Enemies2","order":15,"path":"folders/Objects/Dialogue/Enemies2.yy",},
+    {"name":"mouth","order":17,"path":"folders/Objects/Dialogue/mouth.yy",},
     {"name":"TrustFall","order":6,"path":"folders/Objects/Dialogue/TrustFall.yy",},
     {"name":"Tutorial","order":8,"path":"folders/Objects/Dialogue/Tutorial.yy",},
     {"name":"GUI","order":11,"path":"folders/Objects/GUI.yy",},
