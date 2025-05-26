@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Dora",
-    "path":"folders/Sprites/Dora.yy",
+    "path":"folders/Sprites/forDialogue/Dora.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
