@@ -12,8 +12,8 @@
   "duration":277.4204,
   "name":"enemy1_music",
   "parent":{
-    "name":"Appendage",
-    "path":"Appendage.yyp",
+    "name":"audio",
+    "path":"folders/audio.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

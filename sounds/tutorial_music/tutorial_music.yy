@@ -12,8 +12,8 @@
   "duration":213.76,
   "name":"tutorial_music",
   "parent":{
-    "name":"Appendage",
-    "path":"Appendage.yyp",
+    "name":"audio",
+    "path":"folders/audio.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

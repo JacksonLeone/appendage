@@ -12,8 +12,8 @@
   "duration":0.64800453,
   "name":"death_music",
   "parent":{
-    "name":"Appendage",
-    "path":"Appendage.yyp",
+    "name":"audio",
+    "path":"folders/audio.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

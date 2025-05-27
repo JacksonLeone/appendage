@@ -12,8 +12,8 @@
   "duration":369.3134,
   "name":"trustfall_music",
   "parent":{
-    "name":"Appendage",
-    "path":"Appendage.yyp",
+    "name":"audio",
+    "path":"folders/audio.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":1.7760091,
   "name":"jump_music",
   "parent":{
-    "name":"Appendage",
-    "path":"Appendage.yyp",
+    "name":"audio",
+    "path":"folders/audio.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
