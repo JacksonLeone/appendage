@@ -1,7 +1,8 @@
+
+
 if (showing_dialog == false) {
 	if (dialog.count() <= 0) {
 		instance_destroy();
-		room_goto_next();
 		return;
 	}
 	

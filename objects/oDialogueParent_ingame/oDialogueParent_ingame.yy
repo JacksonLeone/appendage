@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oTutorial_opening",
+  "%Name":"oDialogueParent_ingame",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oTutorial_opening",
+  "name":"oDialogueParent_ingame",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tutorial",
-    "path":"folders/Objects/Dialogue/Tutorial.yy",
+    "name":"Dialogue",
+    "path":"folders/Objects/Dialogue.yy",
   },
-  "parentObjectId":{
-    "name":"oDialogueParent_ingame",
-    "path":"objects/oDialogueParent_ingame/oDialogueParent_ingame.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
