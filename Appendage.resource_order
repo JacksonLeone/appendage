@@ -39,7 +39,7 @@
     {"name":"oLadder","order":14,"path":"objects/oLadder/oLadder.yy",},
     {"name":"oLvl1_comp","order":1,"path":"objects/oLvl1_comp/oLvl1_comp.yy",},
     {"name":"oManager","order":2,"path":"objects/oManager/oManager.yy",},
-    {"name":"oOpeningDialogue","order":1,"path":"objects/oOpeningDialogue/oOpeningDialogue.yy",},
+    {"name":"oOpeningDialogue","order":2,"path":"objects/oOpeningDialogue/oOpeningDialogue.yy",},
     {"name":"oRoomSelector","order":13,"path":"objects/oRoomSelector/oRoomSelector.yy",},
     {"name":"oShard","order":10,"path":"objects/oShard/oShard.yy",},
     {"name":"oSolid","order":1,"path":"objects/oSolid/oSolid.yy",},

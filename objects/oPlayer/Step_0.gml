@@ -118,7 +118,7 @@ if (current_limb == "crawl"){
 	}
     if (keyboard_check(vk_left)) {
 		audio_play_sound(crawl_music,1,false);
-        xsp = -0.3;
+        xsp = -0.6;
 		image_xscale = -1
 		image_speed = 0.7
 		sprite_index = scoot_palindrone_anim
@@ -126,7 +126,7 @@ if (current_limb == "crawl"){
     }
     if (keyboard_check(vk_right)) {
 		audio_play_sound(crawl_music,1,false);
-        xsp = 0.3;
+        xsp = 0.6;
 		image_xscale = 1
 		image_speed = 0.7
 		sprite_index = scoot_palindrone_anim

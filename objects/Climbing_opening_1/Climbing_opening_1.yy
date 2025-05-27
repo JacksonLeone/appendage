@@ -12,8 +12,8 @@
     "path":"folders/Objects/Dialogue/mouth.yy",
   },
   "parentObjectId":{
-    "name":"oDialogueParent",
-    "path":"objects/oDialogueParent/oDialogueParent.yy",
+    "name":"oDialogueParent_ingame",
+    "path":"objects/oDialogueParent_ingame/oDialogueParent_ingame.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -10,8 +10,8 @@
   "name":"oOpeningDialogue",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dialogue",
-    "path":"folders/Objects/Dialogue.yy",
+    "name":"Tutorial",
+    "path":"folders/Objects/Dialogue/Tutorial.yy",
   },
   "parentObjectId":{
     "name":"oDialogueParent",
