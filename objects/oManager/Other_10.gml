@@ -1,5 +1,4 @@
 /// @description Create UI
-
 var _width = 250
 var _height = 80
 draw_set_font(P2S_font)

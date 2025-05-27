@@ -6,7 +6,9 @@ if (showing_dialog) {
 	var padding_y = 11;
 	var text_padding = 110;
 	
+	if !global.menuOpen{
 	draw_set_font(fDialogue)
+	}
 	
 	draw_set_alpha(alpha);
 	

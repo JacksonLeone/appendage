@@ -1,3 +1,5 @@
 function on_click_play(){
-	keyboard_key_press(ord("M"))
+	instance_destroy(oButton)
+	instance_destroy(oList)
+	draw_set_font(fDialogue)
 }
