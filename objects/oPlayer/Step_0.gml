@@ -152,14 +152,14 @@ if (current_limb == "leg"){
 	ysp += 0.1 //small gravity
     if (keyboard_check(vk_left)) {
 		audio_play_sound(crawl_music,1,false);
-        xsp = -1.5;
+        xsp = -1.7;
 		image_xscale = -1
 		image_speed = 1
 		sprite_index = walk_anim
     }
     if (keyboard_check(vk_right)) {
 		audio_play_sound(crawl_music,1,false);
-        xsp = 1.5;
+        xsp = 1.7;
 		image_xscale = 1
 		image_speed = 1
 		sprite_index = walk_anim
@@ -181,13 +181,13 @@ if (current_limb == "mouth") {
     image_xscale = scale;
     image_yscale = scale;
 	if (keyboard_check(vk_left)) {
-        xsp = -1.5;
+        xsp = -1.7;
 		image_xscale = -scale
 		image_speed = 1
 		sprite_index = walk_anim
     }
     if (keyboard_check(vk_right)) {
-        xsp = 1.5;
+        xsp = 1.7;
 		image_xscale = scale
 		image_speed = 1
 		sprite_index = walk_anim
