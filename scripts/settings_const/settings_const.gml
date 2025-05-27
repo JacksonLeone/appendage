@@ -10,3 +10,10 @@ enum PR {
 	SELECTED, 
 	VALUES
 }
+
+if (!variable_global_exists("SFX_vol")){
+	global.SFX_vol = 10;
+}
+if (!variable_global_exists("music_vol")){
+	global.music_vol = 10;
+}
