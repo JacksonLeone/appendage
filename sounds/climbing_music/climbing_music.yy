@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"climbing_music",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"music",
+    "path":"audiogroups/music",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":161.7502,
   "name":"climbing_music",
   "parent":{
     "name":"Appendage",

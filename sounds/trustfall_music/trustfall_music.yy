@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"trustfall_music",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"music",
+    "path":"audiogroups/music",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":433.39755,
+  "duration":369.3134,
   "name":"trustfall_music",
   "parent":{
     "name":"Appendage",

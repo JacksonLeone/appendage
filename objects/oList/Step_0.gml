@@ -61,6 +61,17 @@ for (var i = 0; i<_size; i++) {
 						break;
 					}
 				}
+				if type == LIST_TYPE.SETTINGS {
+					switch _name {
+						case "Music Volume":
+							global.music_vol = _vals[_sel]
+						break;
+						
+						case "SFX Volume":
+							global.SFX_vol = _vals[_sel]
+						break;
+					}
+				}
 			}
 		}
 	}

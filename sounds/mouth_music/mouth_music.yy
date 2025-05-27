@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"mouth_music",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"music",
+    "path":"audiogroups/music",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":429.3747,
+  "duration":397.9494,
   "name":"mouth_music",
   "parent":{
     "name":"Appendage",
