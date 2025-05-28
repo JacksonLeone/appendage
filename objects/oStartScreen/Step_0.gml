@@ -7,6 +7,10 @@ if (text_alpha < 1) {
 if (!audio_is_playing(titlescreen_music)) {
     audio_play_sound(titlescreen_music, 1000, true);
 }
+if !global.menuOpen{
+	draw_set_font(P2S_font)
+}
+	
 
 //DISABLED DUE TO LEVEL SELECTOR BUTTONS
 // Start game on any key press or mouse click

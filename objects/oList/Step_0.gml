@@ -65,12 +65,12 @@ for (var i = 0; i<_size; i++) {
 					switch _name {
 						case "Music Volume %":
 							global.music_vol = _vals[_sel]
-							audio_group_set_gain(music,global.music_vol/10,0)
+							audio_group_set_gain(music,global.music_vol/100,0)
 						break;
 						
 						case "SFX Volume %":
 							global.SFX_vol = _vals[_sel]
-							audio_group_set_gain(music,global.SFX_vol/10,0)
+							audio_group_set_gain(SFX,global.SFX_vol/100,0)
 						break;
 					}
 				}
