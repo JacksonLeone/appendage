@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Climbing_opening_1",
+  "%Name":"oClimbing_comp",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Climbing_opening_1",
+  "name":"oClimbing_comp",
   "overriddenProperties":[],
   "parent":{
-    "name":"mouth",
-    "path":"folders/Objects/Dialogue/mouth.yy",
+    "name":"Climbing",
+    "path":"folders/Objects/Dialogue/Climbing.yy",
   },
   "parentObjectId":{
-    "name":"oDialogueParent_ingame",
-    "path":"objects/oDialogueParent_ingame/oDialogueParent_ingame.yy",
+    "name":"oDialogueParent",
+    "path":"objects/oDialogueParent/oDialogueParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
