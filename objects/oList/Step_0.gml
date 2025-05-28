@@ -2,7 +2,7 @@
 var _mouseX = device_mouse_x_to_gui(0)
 var _mouseY = device_mouse_y_to_gui(0)
 var _mousePressed = mouse_check_button_pressed(mb_left)
-
+show_debug_message(global.music_vol);
 // Operate on list
 var _size = ds_list_size(options_list)
 
@@ -63,12 +63,14 @@ for (var i = 0; i<_size; i++) {
 				}
 				if type == LIST_TYPE.SETTINGS {
 					switch _name {
-						case "Music Volume":
+						case "Music Volume %":
 							global.music_vol = _vals[_sel]
+							audio_group_set_gain(music,global.music_vol/10,0)
 						break;
 						
-						case "SFX Volume":
+						case "SFX Volume %":
 							global.SFX_vol = _vals[_sel]
+							audio_group_set_gain(music,global.SFX_vol/10,0)
 						break;
 					}
 				}

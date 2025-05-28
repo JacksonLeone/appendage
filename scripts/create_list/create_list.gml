@@ -34,7 +34,7 @@ function create_list(){
 		switch (_type) {
 			case LIST_TYPE.SETTINGS:
 				ds_list_add(options_list,["Music Volume %", 10, [0,10,20,30,40,50,60,70,80,90,100]])
-				ds_list_add(options_list,["SFX Volume %", 10, ["0","10","20%","30%","40%","50%","60%","70%","80%","90%","100%"]])
+				ds_list_add(options_list,["SFX Volume %", 10, [0,10,20,30,40,50,60,70,80,90,100]])
 				ds_list_add(options_list,["Close", -1, []])
 			break;
 		}
