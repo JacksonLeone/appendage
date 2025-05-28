@@ -1,0 +1,1 @@
+dialogue_spawned = false
